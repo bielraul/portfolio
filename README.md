@@ -42,7 +42,7 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 #### 💻 Desenvolvimento Web
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Site Buffet Infantil (Iupiii)** | Site institucional completo com painel administrativo, CRUD de galeria e integração com backend em PHP. | [Ver Projeto](./site-iupiii/) |
+| **Site Buffet Infantil (Iupiii)** | Site institucional completo com painel administrativo, CRUD de galeria e integração com backend em PHP. | [Ver Projeto]([./site-iupiii/](https://github.com/bielraul/Iupiii-Buffet-Infantil)) |
 | **SoftUI Generator** | Ferramenta web para criação de componentes visuais no estilo neumorphism, com interface interativa e personalização em tempo real. | [Ver Projeto](https://github.com/bielraul/SoftUI) |
 
 #### 🗃️ Banco de Dados
