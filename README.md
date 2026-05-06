@@ -42,7 +42,6 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 #### 💻 Desenvolvimento Web
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Sistema de Catálogo WhatsApp** | Sistema de catálogo online com envio automático de pedidos via WhatsApp, desenvolvido em PHP e MySQL. | [Ver Projeto](./catalogo-whatsapp/) |
 | **Site Buffet Infantil (Iupiii)** | Site institucional completo com painel administrativo, CRUD de galeria e integração com backend em PHP. | [Ver Projeto](./site-iupiii/) |
 
 #### 🗃️ Banco de Dados
