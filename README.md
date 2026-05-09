@@ -58,9 +58,9 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 | **RedirectHunter**                | Ferramenta em Python para análise de redirecionamentos HTTP/HTTPS, identificação de URLs finais e análise automatizada com Playwright/Selenium.            | [Ver Projeto](https://github.com/gabrielmarcolinooo/RedirectHunter) |
 
 #### Inteligencia Artificial
-| Projeto                           | Descrição                                                                       |                                 Link                                |
+| Projeto               | Descrição                                                                       |                                 Link                                |
 | :-------------------------------- | :------------------------------------------------------------------------------ | :-----------------------------------------------------------------: |
-| **SoftUI Generator**              | Ferramenta web para criação de componentes visuais no estilo neumorphism, com interface interativa e personalização em tempo real.                         |          [Ver Projeto](https://github.com/bielraul/SoftUI)          |
+| **SoftUI Generator**  | Ferramenta web para criação de componentes visuais no estilo neumorphism, com interface interativa e personalização em tempo real.                    |          [Ver Projeto](https://github.com/bielraul/SoftUI)          |
 
 ---
 
