@@ -65,8 +65,35 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 
 ### 🏗 Estrutura do Repositório
 
-Abaixo, a organização deste repositório para facilitar a navegação:
+Abaixo, a organização deste repositório para facilitar a navegação e apresentação dos projetos desenvolvidos durante minha trajetória acadêmica e prática em desenvolvimento web, IA e Engenharia de Software.
 
-* `README.md`: Arquivo principal de apresentação do perfil.
-* `Links dos Projetos`: Repositórios e projetos desenvolvidos durante estudos, freelas e projetos pessoais.
-* `Portfólio`: Projetos focados em desenvolvimento web, interfaces e soluções digitais.
+```bash
+.
+├── README.md (Principal do Portfólio)
+├── .github/ (Opcional: imagens, banners e assets)
+│
+├── batalha-de-modelos-ia/
+│   └── README.md
+│
+├── engenharia-de-prompt/
+│   ├── Engenharia de prompt.pdf
+│   └── README.md
+│
+├── engenharia-de-software-bubble/
+│   └── README.md
+│
+├── engenharia-reversa-neumorphism/
+│   ├── src/
+│   ├── README.md
+│   ├── index.html
+│   ├── metadata.json
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── vite.config.ts
+│
+├── softui-lab-mvp/
+│   └── README.md
+│
+└── vies-em-inteligencia-artificial/
+    ├── README.md
+    └── relatorio-vies-ia.pdf
