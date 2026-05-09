@@ -42,8 +42,8 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 #### 💻 Desenvolvimento Web 
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Site Buffet Infantil (Iupiii)** | Site institucional completo com painel administrativo, CRUD de galeria e integração com backend em PHP. | [Ver Projeto](https://github.com/bielraul/Iupiii-Buffet-Infantil) |
 | **SoftUI Generator** | Ferramenta web para criação de componentes visuais no estilo neumorphism, com interface interativa e personalização em tempo real. | [Ver Projeto](https://github.com/bielraul/SoftUI) |
+| **Site Buffet Infantil (Iupiii)** | Site institucional completo com painel administrativo, CRUD de galeria e integração com backend em PHP. | [Ver Projeto](https://github.com/bielraul/Iupiii-Buffet-Infantil) |
 | **Site Residencial Luz e Vida** | Desenvolvimento completo de site institucional, incluindo estrutura, design responsivo e otimização da experiência do usuário para apresentação dos serviços da empresa. | [Ver Projeto](https://casaderepousoluzevida.com.br/) |
 | **RedirectHunter** | Ferramenta profissional em Python para análise de redirecionamentos HTTP/HTTPS, detecção de URLs finais, identificação de links de download e análise dinâmica com Playwright/Selenium. | [Ver Projeto](https://github.com/gabrielmarcolinooo/RedirectHunter) |
 
