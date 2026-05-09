@@ -1,20 +1,101 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎨 SoftUI — Gerador de Interface Neumorphism
 
-# Run and deploy your AI Studio app
+## 📝 Descrição do Projeto
+O **SoftUI** é uma aplicação web moderna inspirada no conceito visual de **Soft UI / Neumorphism**, desenvolvida com foco em design minimalista, interatividade e experiência do usuário.
 
-This contains everything you need to run your app locally.
+O projeto permite gerar componentes visuais em estilo neumórfico de forma dinâmica, possibilitando a personalização de propriedades como:
 
-View your app in AI Studio: https://ai.studio/apps/a9e68375-bdf2-4164-a4cf-7d829ae797f6
+- Cor do componente
+- Tamanho
+- Raio da borda
+- Distância da sombra
+- Intensidade
+- Blur (desfoque)
+- Direção da luz
 
-## Run Locally
+Além da geração visual em tempo real, a aplicação também auxilia desenvolvedores e designers na criação de estilos CSS modernos para interfaces elegantes e responsivas.
 
-**Prerequisites:**  Node.js
+Desenvolvido como projeto de estudo e engenharia reversa de interfaces modernas, o sistema explora conceitos de:
+
+- Design System
+- UI/UX
+- Responsividade
+- Componentização
+- Geração dinâmica de estilos CSS
+
+---
+
+## 📸 Preview do Projeto
+
+![Preview do SoftUI]<img width="1351" height="566" alt="image" src="https://github.com/user-attachments/assets/9d65bfb9-1677-4212-905e-7b77da45519a" />
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+*Figura 1: Interface principal do gerador SoftUI inspirado em Neumorphism.*
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+### 💻 Front-end
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+
+### ⚙️ Ferramentas & Recursos
+- **Node.js**
+- **Gemini API**
+- **Google AI Studio**
+- **CSS Moderno (Neumorphism)**
+
+---
+
+## ✨ Funcionalidades
+
+- 🎨 Personalização visual em tempo real
+- 🌗 Interface moderna baseada em Soft UI
+- 📱 Layout responsivo
+- ⚡ Atualização dinâmica dos componentes
+- 🧩 Estrutura organizada e escalável
+- 💡 Geração visual para inspiração de interfaces
+- 🖱️ Controles intuitivos via sliders e inputs
+
+---
+
+## 📚 Conceitos Aplicados
+
+Durante o desenvolvimento do projeto foram explorados conceitos importantes de desenvolvimento front-end moderno, como:
+
+- Componentização com React
+- Gerenciamento de estado
+- Responsividade
+- Design minimalista
+- Soft Shadows & Depth
+- UI baseada em Neumorphism
+- Estruturação de aplicações modernas com Vite
+
+---
+
+## 📊 Resultados e Aprendizados
+
+O projeto proporcionou grande aprendizado prático em desenvolvimento de interfaces modernas e experiência do usuário.
+
+### Principais aprendizados:
+- Criação de interfaces sofisticadas utilizando CSS avançado
+- Estruturação de aplicações React com Vite
+- Aplicação prática de Tailwind CSS
+- Desenvolvimento de componentes reutilizáveis
+- Melhoria na organização de projetos front-end
+- Exploração de tendências modernas de UI Design
+
+---
+
+## 🔧 Como Executar o Projeto
+
+### Pré-requisitos
+- Node.js instalado
+- npm ou yarn
+
+### Clone o repositório
+```bash
+git clone https://github.com/gabrielmarcolinooo/SoftUI.git
