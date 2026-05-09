@@ -5,6 +5,7 @@ Este projeto consiste em uma análise comparativa entre diferentes modelos de In
 
 Desenvolvido como parte da disciplina de **Engenharia de Prompt e Aplicações em IA**, o projeto envolveu testes realizados em diversas ferramentas de IA, incluindo ChatGPT, Gemini, Claude, Qwen, DeepSeek, Grok e Maritaca. Durante a atividade, foram analisados aspectos como precisão do HTML gerado, criatividade do conteúdo, quantidade de bugs, qualidade visual e quantidade de tokens utilizados por cada modelo.
 
+<img width="485" height="470" alt="image" src="https://github.com/user-attachments/assets/42ee1920-a1df-4f4f-b189-70e99ca7887f" />
 
 *Figura 1: Quadro comparativo entre diferentes modelos de IA durante os testes de geração de código.*
 
