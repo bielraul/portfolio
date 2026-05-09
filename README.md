@@ -49,10 +49,16 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 
 ### 📂 Portfólio de Projetos
 
-#### Inteligencia Artificial
-| Projeto                           | Descrição                                                                       |                                 Link                                |
-| :-------------------------------- | :------------------------------------------------------------------------------ | :-----------------------------------------------------------------: |
-| **Engenharia Reversa**  | Ferramenta web para criação de componentes visuais no estilo neumorphism, com interface interativa e personalização em tempo real.                    |          [Ver Projeto](./projeto-engenharia-reversa) |
+#### 🤖 Inteligência Artificial
+
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Batalha de Modelos IA** | Comparação prática entre diferentes modelos de Inteligência Artificial utilizando Engenharia de Prompt em XML para geração de páginas HTML. | [Ver Projeto](./batalha-de-modelos-ia) |
+| **Engenharia de Prompt** | Experimentos práticos com IA generativa, criação de prompts avançados e análise da evolução dos resultados gerados. | [Ver Projeto](./engenharia-de-prompt) |
+| **Engenharia de Software Bubble** | Sistema web de gerenciamento de orçamentos desenvolvido com Bubble.io utilizando Inteligência Artificial e conceitos de Engenharia de Software. | [Ver Projeto](./engenharia-de-software-bubble) |
+| **Engenharia Reversa Neumorphism** | Ferramenta web inspirada no Neumorphism.io para criação de componentes visuais no estilo neumorphism com personalização em tempo real. | [Ver Projeto](./engenharia-reversa-neumorphism) |
+| **SoftUI Lab MVP** | MVP de uma plataforma de geração de interfaces neumórficas modernas com recursos de personalização e gerenciamento visual. | [Ver Projeto](./softui-lab-mvp) |
+| **Viés em Inteligência Artificial** | Estudo sobre erros de classificação e impactos sociais causados por vieses em modelos de IA. | [Ver Projeto](./vies-em-inteligencia-artificial) |
 
 #### 💻 Projetos & Aplicações 
 
@@ -67,6 +73,7 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 
 Abaixo, a organização deste repositório para facilitar a navegação e apresentação dos projetos desenvolvidos durante minha trajetória acadêmica e prática em desenvolvimento web, IA e Engenharia de Software.
 
+```bash
 .
 ├── README.md (Principal do Portfólio)
 ├── .github/ (Opcional: imagens, banners e assets)
