@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neumorphism.io Clone - Soft UI Generator</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1>Neumorfismo.io</h1>
+        <p>Gere código CSS para Soft-UI</p>
+      </header>
+
+      <main class="main-container">
+        <!-- Preview Area -->
+        <section class="preview-section">
+          <div class="preview-container" id="previewContainer">
+            <div class="neumorphic-element" id="targetElement"></div>
+          </div>
+        </section>
+
+        <!-- Configuration Panel -->
+        <section class="config-section">
+          <div class="config-card">
+            <div class="config-group">
+              <label for="colorInput">Escolha uma cor:</label>
+              <div class="color-picker-wrapper">
+                <input type="color" id="colorInput" value="#e0e0e0">
+                <input type="text" id="colorText" value="#e0e0e0">
+              </div>
+            </div>
+
+            <div class="config-group">
+              <label for="sizeInput">Tamanho</label>
+              <input type="range" id="sizeInput" min="10" max="400" value="300">
+            </div>
+
+            <div class="config-group">
+              <label for="radiusInput">Raio</label>
+              <input type="range" id="radiusInput" min="0" max="200" value="50">
+            </div>
+
+            <div class="config-group">
+              <label for="distanceInput">Distância</label>
+              <input type="range" id="distanceInput" min="0" max="50" value="20">
+            </div>
+
+            <div class="config-group">
+              <label for="blurInput">Desfoque (Blur)</label>
+              <input type="range" id="blurInput" min="0" max="100" value="40">
+            </div>
+
+            <div class="config-group">
+              <label for="intensityInput">Intensidade</label>
+              <input type="range" id="intensityInput" min="0" max="1" step="0.01" value="0.15">
+            </div>
+
+            <div class="config-group">
+              <label>Direção da Luz</label>
+              <div class="direction-selector">
+                <button class="dir-btn" data-dir="top-left">↖</button>
+                <button class="dir-btn" data-dir="top-right">↗</button>
+                <button class="dir-btn" data-dir="bottom-left">↙</button>
+                <button class="dir-btn active" data-dir="bottom-right">↘</button>
+              </div>
+            </div>
+
+            <div class="config-group">
+              <label>Forma</label>
+              <div class="shape-selector">
+                <button class="shape-btn active" data-shape="flat">Plano</button>
+                <button class="shape-btn" data-shape="concave">Côncavo</button>
+                <button class="shape-btn" data-shape="convex">Convexo</button>
+                <button class="shape-btn" data-shape="pressed">Pressionado</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- CSS Output Area -->
+      <section class="output-section">
+        <div class="code-container">
+          <pre id="cssCode">box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;</pre>
+          <button id="copyBtn" class="copy-button">Copiar CSS</button>
+        </div>
+      </section>
+
+      <!-- O que é Neumorfismo Section -->
+      <section class="info-section">
+        <div class="section-header">
+          <h2>O que é Neumorfismo?</h2>
+          <p>O Neumorfismo, ou Soft UI, é uma tendência de design que combina o realismo do esqueuomorfismo com o minimalismo do flat design.</p>
+        </div>
+        
+        <div class="info-grid">
+          <div class="info-card">
+            <div class="visual-example flat-example"></div>
+            <h3>O Conceito</h3>
+            <p>Utiliza sombras claras e escuras para criar elementos que parecem estar "extrudados" do fundo, em vez de apenas flutuarem sobre ele.</p>
+          </div>
+          <div class="info-card">
+            <div class="visual-example shadow-example"></div>
+            <h3>Luz e Sombra</h3>
+            <p>O efeito depende de duas sombras: uma clara (simulando a fonte de luz) e uma escura (simulando a sombra projetada pelo objeto).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coleção de Designs Section -->
+      <section class="collection-section">
+        <div class="section-header">
+          <h2>Coleção de Designs</h2>
+          <p>Explore como o Neumorfismo pode ser aplicado em diferentes componentes de interface.</p>
+        </div>
+
+        <div class="collection-grid">
+          <!-- Botões em diferentes estados -->
+          <div class="showcase-item">
+            <div class="showcase-group">
+              <button class="neu-button">Padrão</button>
+              <button class="neu-button pressed">Pressionado</button>
+            </div>
+            <span>Botões</span>
+          </div>
+          
+          <!-- Card Exemplo -->
+          <div class="showcase-item">
+            <div class="neu-card">
+              <div class="neu-icon">★</div>
+              <p>Card Premium</p>
+              <div class="neu-card-footer">
+                <button class="neu-button small">Ver</button>
+              </div>
+            </div>
+            <span>Card</span>
+          </div>
+
+          <!-- Barra de Progresso -->
+          <div class="showcase-item">
+            <div class="neu-progress-container">
+              <div class="neu-progress-bar" style="width: 65%;"></div>
+            </div>
+            <span>Barra de Progresso</span>
+          </div>
+
+          <!-- Slider -->
+          <div class="showcase-item">
+            <input type="range" class="neu-slider" min="0" max="100" value="70">
+            <span>Slider Customizado</span>
+          </div>
+
+          <!-- Interruptor (Switch) -->
+          <div class="showcase-item">
+            <div class="neu-switch" id="demoSwitch">
+              <div class="neu-handle"></div>
+            </div>
+            <span>Interruptor Inteligente</span>
+          </div>
+
+          <!-- Caixa de Busca -->
+          <div class="showcase-item">
+            <div class="neu-search-container">
+              <input type="text" class="neu-search-input" placeholder="Pesquisar...">
+              <button class="neu-search-btn">🔍</button>
+            </div>
+            <span>Caixa de Busca</span>
+          </div>
+
+          <!-- Pequeno Painel -->
+          <div class="showcase-item">
+            <div class="neu-panel">
+              <div class="neu-panel-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+              </div>
+              <div class="neu-panel-content">
+                <p>Status: Ativo</p>
+              </div>
+            </div>
+            <span>Painel de Interface</span>
+          </div>
+
+          <!-- Input Field -->
+          <div class="showcase-item">
+            <input type="text" class="neu-input" placeholder="Nome de usuário">
+            <span>Campo de Entrada</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rodapé Moderno -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>Neumorfismo.io</h3>
+            <p>Uma ferramenta profissional para designers modernos.</p>
+          </div>
+          <div class="footer-links">
+            <p>Desenvolvido com Vanilla JS & CSS</p>
+            <p>© 2026 Soft UI Lab</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>
+
