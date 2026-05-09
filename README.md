@@ -67,7 +67,6 @@ Sou apaixonado por tecnologia, desenvolvimento web e criação de soluções dig
 
 Abaixo, a organização deste repositório para facilitar a navegação e apresentação dos projetos desenvolvidos durante minha trajetória acadêmica e prática em desenvolvimento web, IA e Engenharia de Software.
 
-```bash
 .
 ├── README.md (Principal do Portfólio)
 ├── .github/ (Opcional: imagens, banners e assets)
