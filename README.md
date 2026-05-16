@@ -100,19 +100,6 @@ Abaixo, a organização deste repositório para facilitar a navegação e aprese
 ├── softui-lab-mvp/
 │   ├── src/
 │   │   ├── lib/
-│   │   │   ├── auth-service.js
-│   │   │   ├── designs-service.js
-│   │   │   ├── profile-service.js
-│   │   │   └── ui-utils.js
-│   │   │
-│   │   ├── App.tsx
-│   │   ├── firebase.js
-│   │   ├── index.css
-│   │   ├── main.tsx
-│   │   ├── script.js
-│   │   ├── state.js
-│   │   └── style.css
-│   │
 │   ├── .env.example
 │   ├── firebase-blueprint.json
 │   ├── firestore.rules
