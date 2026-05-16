@@ -1,13 +1,15 @@
 # 🎨 Engenharia Reversa de Interface — SoftUI Lab
 
 ## 📝 Descrição do Projeto
-Este projeto consiste na criação de uma interface inspirada em plataformas modernas de geração de designs **Neumorphism/Soft UI**, utilizando técnicas de **Engenharia Reversa** aplicadas ao desenvolvimento web. O objetivo principal foi analisar visualmente estruturas modernas de interfaces e reproduzir seus componentes, estilos e funcionalidades utilizando tecnologias front-end modernas.
+Este projeto consiste na recriação de uma interface inspirada em plataformas modernas de geração de designs **Neumorphism/Soft UI**, utilizando técnicas de **Engenharia Reversa** aplicadas ao desenvolvimento web. O objetivo principal foi analisar visualmente e estruturalmente interfaces modernas e reproduzir seus componentes, estilos e funcionalidades utilizando tecnologias front-end modernas.
 
-Desenvolvido como parte das atividades da disciplina de **Engenharia de Prompt e Aplicações em IA**, o projeto permitiu compreender na prática conceitos relacionados à construção de interfaces modernas, componentização, Soft UI (Neumorphism), responsividade e comportamento visual interativo. Além disso, foram aplicadas técnicas de observação estrutural para reconstrução do layout, efeitos visuais e controles da aplicação.
+Desenvolvido como parte das atividades da disciplina de **Engenharia de Prompt e Aplicações em IA**, o projeto permitiu compreender na prática conceitos relacionados à construção de interfaces modernas, Soft UI (Neumorphism), componentização, responsividade e comportamento visual interativo. Além disso, foram aplicadas técnicas de observação estrutural da interface para reconstrução do layout, efeitos visuais e controles da aplicação.
 
-A aplicação foi desenvolvida utilizando **React + TypeScript + Vite**, permitindo uma arquitetura mais moderna, organizada e escalável para o desenvolvimento da interface.
+A aplicação foi desenvolvida utilizando **React + TypeScript + Vite**, proporcionando uma arquitetura moderna, organizada e escalável para o desenvolvimento da interface.
 
 <img width="1365" height="601" alt="SoftUI Lab" src="https://github.com/user-attachments/assets/2ab28b8f-ac05-4338-b834-d7dcf32e918c" />
+
+*Figura 1: Interface desenvolvida inspirada em plataformas modernas de Soft UI utilizando Engenharia Reversa.*
 
 ## 🚀 Tecnologias Utilizadas
 * **Linguagens:** TypeScript, CSS3 e JavaScript
@@ -19,7 +21,7 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Vite**, permiti
 * **Estilização:** Sombras suaves, efeitos de profundidade e UI interativa
 
 ## 📊 Resultados e Aprendizados
-O projeto apresentou resultados positivos na recriação de uma interface moderna baseada em Soft UI e na compreensão de conceitos avançados de front-end.
+O projeto apresentou resultados positivos na recriação da interface e na compreensão dos conceitos de design moderno aplicados ao front-end.
 
 * **Recriação Visual:** Foi possível reproduzir efeitos visuais modernos utilizando Neumorphism.
 * **Interatividade:** Implementação de controles visuais, botões dinâmicos e componentes interativos.
